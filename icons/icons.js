@@ -1,4 +1,4 @@
-fetch('')
+fetch('https://raw.githubusercontent.com/pao-repo/files-link/refs/heads/main/icons/icons.json')
   .then(response => response.json())
   .then(icons => {
     document.querySelectorAll('[data-icon]').forEach(el => {
